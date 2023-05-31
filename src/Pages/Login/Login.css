@@ -1,0 +1,7 @@
+.login{
+    height: 97%;
+    width: 97%;
+    border-radius: 2rem;
+    background: var(--glass);
+    overflow: hidden;
+  }

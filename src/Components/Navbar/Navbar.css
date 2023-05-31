@@ -1,0 +1,13 @@
+.Navbar{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background:  linear-gradient(106.37deg,hsl(33, 40%, 71%) 29.63%,hsl(359, 32%, 75%) 51.55%, hsl(303, 33%, 76%) 90.85%);
+}
+.profile_icon{
+    padding-right: 20px;
+    cursor: pointer;
+    font-size: 2rem;
+}

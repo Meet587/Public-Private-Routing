@@ -1,0 +1,10 @@
+.logo>img{
+    width: 3.5rem;
+}
+.Sidebar{
+    height: 100vh;
+    background:  linear-gradient(106.37deg,hsl(33, 40%, 71%) 29.63%,hsl(359, 32%, 75%) 51.55%, hsl(303, 33%, 76%) 90.85%);
+}
+.menuItem{
+    cursor: pointer;
+}
