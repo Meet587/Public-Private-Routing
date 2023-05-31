@@ -17,4 +17,21 @@ export const routes = [
     path: "/",
     element: <Dashboard />,
   },
+  {
+    path: "/orders",
+    element: <Dashboard />,
+  },
+  {
+    path: "/customers",
+    element: <Dashboard />,
+  },
+  {
+    path: "/products",
+    element: <Dashboard />,
+  },
+  {
+    path: "/analytics",
+    element: <Dashboard />,
+  },
+
 ];

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Login.css";
 import {
   Button,
@@ -10,7 +10,7 @@ import {
   Input,
   Label,
 } from "reactstrap";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -19,6 +19,7 @@ const Login = () => {
     e.preventDefault();
     navigate("/");
   };
+
   return (
     <Container>
       <Card className="m-auto login" style={{ width: "40vw" }}>
@@ -47,7 +48,9 @@ const Login = () => {
             </div>
           </Form>
           <div className="d-flex justify-content-center mt-4 mb-3">
-            <Link to={"/register"}>New user?</Link>
+            <Link to={"/register"} className="text-black ">
+              New user?
+            </Link>
           </div>
         </CardBody>
       </Card>
