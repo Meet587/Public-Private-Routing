@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import "./Dashboard.css";
+import "./Maindash.css";
 
-const Dashboard = () => {
+const MainDash = () => {
   const [X, setX] = useState(0);
   const list = { hidden: { opacity: 10 } };
   const item = { hidden: { x: -10, opacity: 10 } };
@@ -31,4 +31,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default MainDash;

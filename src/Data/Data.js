@@ -9,31 +9,11 @@ import {
 
 // sidebar
 export const SidebarData = [
-  {
-    icon: UilEstate,
-    heading: "Dashboard",
-    path: "/",
-  },
-  {
-    icon: UilClipboardAlt,
-    heading: "Orders",
-    path: "/orders",
-  },
-  {
-    icon: UilUsersAlt,
-    heading: "Customers",
-    path: "/customers",
-  },
-  {
-    icon: UilPackage,
-    heading: "Products",
-    path: "/products",
-  },
-  {
-    icon: UilChart,
-    heading: "Analytics",
-    path: "/analytics",
-  },
+  { id: 0, icon: UilEstate, heading: "Dashboard", path: "/" },
+  { id: 1, icon: UilClipboardAlt, heading: "Orders", path: "/orders" },
+  { id: 2, icon: UilUsersAlt, heading: "Customers", path: "/customers" },
+  { id: 3, icon: UilPackage, heading: "Products", path: "/products" },
+  { id: 4, icon: UilChart, heading: "Analytics", path: "/analytics" },
 ];
 
 export const registerFormData = [
